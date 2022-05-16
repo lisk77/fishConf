@@ -4,7 +4,7 @@ sudo apt install neovim
 sudo apt install fish
 
 mv ./init.vim ~/.config/nvim
-mdkir ~/.config/nvim/vim-plug
+mkdir ~/.config/nvim/vim-plug
 mv ./plugins.vim ~/.config/nvim/vim-plug
 mkdir ~/.config/nvim/themes
 mv ./onedark.vim ~/.config/nvim/themes
