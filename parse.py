@@ -1,7 +1,7 @@
 import requests
 
 conditions = {"Clear": " ☀️ ", "Clouds": " ☁️ ", "Thunderstorm": " ⛈ ", "Drizzle": " 🌧 ", "Rain": " 🌧 ", "Snow": " 🌨 ", "Atmosphere": " 🌫 "}             
-api = "https://api.openweathermap.org/data/2.5/weather?lat=51.358627&lon=12.476209&appid=aef9dce181f3ccc20a33a1fe85915da9"
+api = "https://api.openweathermap.org/data/2.5/weather?lat=LATITUDE&lon=LONGITUDE&appid=APIKEY"
 data = requests.get(api).json()
 
 condition = data["weather"][0]["main"]
